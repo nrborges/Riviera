@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #2A0000;
+    color: #DCCFC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-cadastro {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(220, 207, 196, 17%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container-cadastro h2 {
+    font-family: "Literata", serif;
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form .input-cadastro {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.input-cadastro label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+form .nomes,
+.infos,
+.senha,
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.input-cadastro input {
+    background-color: rgba(217, 217, 217, 50%);
+    border: none;
+    padding: 9px;
+    width: 220px;
+    border-radius: 9px;
+    outline: none;
+}
+
+.input-cadastro #email{
+    width: 450px;
+}
+
+.input-cadastro #data-nascimento{
+    padding: 8px;
+    color: rgba(0, 0, 0, 43%);
+}
+
+.input-cadastro input::placeholder {
+    color: rgba(0, 0, 0, 43%);
+    font-size: 13px;
+}
+
+button {
+    width: 170px;
+    height: 36px;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(13, 24, 43, 60%);
+    color: #DCCFC4;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 17px;
+}
+
+.cadastrar {
+    width: 170px;
+    height: 36px;
+    padding: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(13, 24, 43, 60%);
+    color: #DCCFC4;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.cadastrar:hover {
+    background-color: rgba(13, 24, 43, 90%);
+}
+
+
+.google-cadastro img {
+    padding-right: 10px;
+}
+
+.google-cadastro {
+    background-color: rgba(255, 255, 255, 50%);
+    border: 2px solid #fff;
+    transition: 0.4s ease;
+}
+
+.google-cadastro:hover {
+    background-color: rgba(255, 255, 255, 80%);
+    color: rgba(0, 0, 0, 60%);
+}
+
+h4 {
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.link-registro {
+    font-size: 13px;
+    margin-top: 29px;
+    text-align: center;
+}
+
+.link-registro a {
+    text-decoration: none;
+    color: #DCCFC4;
+    transition: .5s ease;
+}
+
+.link-registro a:hover {
+    color: #0D182B;
+    font-weight: bolder;
+}

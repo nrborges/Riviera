@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riviera</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tela-principal">
+        <header>
+            <div class="conteudo-cabecalho">
+                <h3>Riviera</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#abt">Sobre</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reserva">Reserva</a></li>
+                    </ul>
+                    
+                    <a href="#">
+                        <img class="carrinho" src="./assets/images/carrinho-icon.svg" alt="Carrinho de Compras">
+                    </a>
+
+                    <a href="./telas login/login-principal.html">
+                        <img class="usericon" src="./assets/images/icon-user.svg" alt="Usuário">
+                    </a>
+                </nav>
+             </div>
+        </header>
+        <section class="secao-principal">
+            
+            <div class="pt1">
+            <h1>Taste the Italian</h1>
+            <h2>tradition</h2>
+
+            <img class="espaguete" src="./assets/images/spaghetti.svg" alt="Espaguete em tijela com manjericão">
+            </div>
+
+            <div class="retangulo">
+                <div class="aboutUs" id="abt">
+                    <h3 class="about">Quem nós somos?</h3>
+
+                    <div class="section__abt">
+                        <img class="imagem-restaurante" src="./assets/images/restaurante.svg" alt="Imagem de um restaurante italiano">
+                        <p>Bem-vindo à Riviera, um pedacinho da Itália no coração da cidade. Nosso restaurante nasceu da paixão por oferecer uma verdadeira experiência italiana, com pratos autênticos que celebram a rica tradição gastronômica da Itália. <br><br> Em Riviera, acreditamos que cada refeição é mais do que apenas uma comida – é uma oportunidade de compartilhar momentos especiais, de reunir amigos e familiares em torno de uma mesa cheia de sabor. Nossa cozinha é uma homenagem à autenticidade, utilizando ingredientes frescos e de qualidade, muitos deles importados diretamente da Itália, para garantir que cada prato seja fiel às suas raízes. <br><br> Na Riviera, queremos que você se sinta parte da nossa família, saboreando a Itália em cada garfada. Se você busca um lugar para desfrutar de pratos autênticos, ambiente acolhedor e boa companhia, nós somos o destino perfeito para você. Venha viver a experiência italiana que você merece.</p>
+                    </div>
+                </div>
+
+                <h3 class="menu-title" id="menu">Menu</h3>
+                <div class="menu" >
+
+                    <ul>
+                        <div class="list-item-name">
+                            <li>Bruschetta al Pomodoro</li>
+                            <li>Spagueti à Carbonara</li>
+                            <li>Risoto ao Funghi Porcini</li>
+                            <li>Tiramisu</li>
+                            <li>Mascarpone</li>
+                        </div>
+
+                        <div class="list-item-value">
+                            <li>R$ 28</li>
+                            <li>R$ 58</li>
+                            <li>R$ 72</li>
+                            <li>R$ 32</li>
+                            <li>R$ 17</li>
+                        </div>
+
+                    </ul>
+
+                    <img class="imagem-vinho" src="./assets/images/Vinho.svg" alt="Vinho na taça com garrafa ao lado">
+                </div>
+
+                <div class="content_frase">
+                    <h3>Mais que uma refeição, oferecemos uma verdadeira experiência italiana, com pratos criados com cuidado, ingredientes de qualidade e o sabor inconfundível da Itália.</h3>
+                </div>
+            </div>
+
+            <section class="reserva" id="reserva">
+                <h4>Faça sua reserva</h4>
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Telefone">
+                    <div class="date__time">
+                        <input id="reserva_data" type="text" placeholder="Data">
+                        <input type="text" placeholder="Horário">
+                    </div>
+                    <button class="reservar" type="submit">RESERVAR</button>
+                </form>
+            </section>
+        
+        </section>
+        
+        <footer>
+                <img class="logo-riviera" src="./assets/images/logo riviera.svg" alt="Logo Riviera">
+                <nav class="nav_page">
+                    <a href="#">Início</a>
+                    <a href="#abt">Sobre</a>
+                    <a href="#menu">Menu</a>
+                </nav>
+
+            <nav class="contatos">
+                <a href="#" target="_blank">
+                    <img src="./assets/images/Instagram.svg" alt="Instagram" class="contato">
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=553186538401" target="_blank">
+                    <img src="./assets/images/Whatsapp.svg" alt="Whatsapp" class="contato" id="whatsapp">
+                </a>
+            </nav>
+        </footer>
+    </div>
+  
+</body>
+</html>

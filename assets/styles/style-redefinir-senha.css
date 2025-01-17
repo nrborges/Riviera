@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #2A0000;
+    color: #DCCFC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-redefinir-senha {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(220, 207, 196, 17%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.container-redefinir-senha h2 {
+    font-family: "Literata", serif;
+    font-size: 43px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    
+}
+
+input {
+    background-color: rgba(217, 217, 217, 50%);
+    border: none;
+    padding: 9px;
+    width: 340px;
+    border-radius: 9px;
+    outline: none;
+    margin-bottom: 25px;
+    margin-top: 2px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 43%);
+    font-size: 13px;
+}
+
+.pronto {
+    width: 170px;
+    height: 36px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(13, 24, 43, 60%);
+    color: #DCCFC4;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.pronto:hover {
+    background-color: rgba(13, 24, 43, 90%);
+}

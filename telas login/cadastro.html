@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riviera - Cadastro</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/styles/style-cadastro.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="cadastro">
+        <div class="container-cadastro">
+            <h2>Cadastre-se</h2>
+
+            <form action="#">
+
+                <div class="nomes">
+                    <div class="input-cadastro">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="input-cadastro">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+                    </div>
+                </div>
+
+
+                <div class="input-cadastro">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email">
+                </div>
+
+                <div class="infos">
+                    <div class="input-cadastro">
+                        <label for="data-nascimento">Data de Nascimento</label>
+                        <input type="date" id="data-nascimento" name="data-nascimento">
+                    </div>
+
+                    <div class="input-cadastro">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF">
+                    </div>
+                </div>
+
+                <div class="senha">
+                    <div class="input-cadastro">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                    </div>
+
+                    <div class="input-cadastro">
+                        <label for="confirmar-senha">Confirmar senha</label>
+                        <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirme sua senha">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a class="cadastrar" href="login-principal.html">CADASTRAR</a>
+
+                    <h4>ou</h4>
+
+                    <button class="google-cadastro">
+                        <img src="/assets/images/logo-google.svg" alt="Logo Google">Entrar com Google
+                    </button>
+                </div>
+
+                <p class="link-registro">Já tem uma conta? <a href="login-principal.html">Faça login</a></p>  
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>
