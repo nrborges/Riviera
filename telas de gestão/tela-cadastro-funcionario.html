@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riviera - Cadastro de Funcionários</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/styles/style-edicao-user.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="edit-user">
+        <header>
+            <a class="logo-riviera" href="#">Riviera</a>
+
+            <a href="#">
+                <img src="/assets/images/sino.svg" alt="">
+            </a>
+        </header>
+
+        <h3 class="title">Cadastrar Funcionário</h3>
+        <main>
+
+            <section class="container_alts">
+
+                <div class="img-user">
+                    <img class="foto-user" src="/assets/images/foto-user.svg" alt="Foto usuário">
+                </div>
+
+                <form>
+                    <div class="nomes">
+                        <div class="input-cadastro">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite o nome">
+                        </div>
+
+                        <div class="input-cadastro">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite o sobrenome">
+                        </div>
+                    </div>
+
+                    <div class="input-cadastro">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite o email">
+                    </div>
+
+                    <div class="infos">
+                        <div class="input-cadastro">
+                            <label for="data-nascimento">Data de Nascimento</label>
+                            <input type="date" id="data-nascimento" name="data-nascimento">
+                        </div>
+
+                        <div class="input-cadastro">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="Digite o CPF">
+                        </div>
+                    </div>
+
+                    <div class="infos_2">
+                        <div class="input-cadastro">
+                            <label for="tel">Matrícula</label>
+                            <input type="text" id="tel" name="tel" placeholder="Digite a matrícula">
+                        </div>
+
+                        <div class="input-cadastro">
+                            <label for="cpf">Cargo</label>
+                            <input type="text" id="cpf" name="cpf" placeholder="Digite o cargo">
+                        </div>
+                    </div>
+                </form>
+
+                <a class="save-alteracoes" href="tela-gestao-user.html">Salvar alterações</a>
+            </section>
+        </main>
+    </section>
+    
+</body>
+</html>

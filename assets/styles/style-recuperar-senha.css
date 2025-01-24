@@ -78,10 +78,10 @@ button {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    margin-top: auto; /* Empurra o botão para o final */
-    align-self: flex-end; /* Alinha o botão à direita */
+    margin-top: auto; 
+    align-self: flex-end; 
     transition: 0.4s ease;
-    margin-left: auto; /* Isso alinha o botão à direita */
+    margin-left: auto; 
 }
 
 .avancar:hover {

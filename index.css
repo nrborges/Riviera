@@ -39,12 +39,17 @@ nav {
 header {
   background-color: #2a0000;
   width: 100%;
-}
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  }
   
 .conteudo-cabecalho {
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align-items: center; 
+  padding: 3px 20px; 
 }
   
 header h3 {
@@ -54,9 +59,6 @@ header h3 {
   margin: 5px 0 0 20px;
 }
   
-nav {
-  margin-top: 13px;
-}
 
 nav a {
   margin: 0 40px;
@@ -96,7 +98,7 @@ nav a:hover{
 }
 
 .pt1 {
-  height: 520px;
+  height: 530px;
 }
 
 .secao-principal h1, h2{
@@ -110,7 +112,7 @@ nav a:hover{
 }
 
 .secao-principal h1{
-  margin-top: 39px;
+  margin-top: 90px;
 }
   
 .espaguete {
