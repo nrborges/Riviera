@@ -161,3 +161,46 @@ form .input-cadastro {
 #cancel {
 	margin-right: 50px;
 }
+
+#now {
+	margin-top: 59px;
+	font-size: 43px;
+}
+
+#dispo {
+	margin-top: -100px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+.infos {
+	display: flex;
+	margin-top: -50px;
+}
+
+.infos h4 {
+	font-weight: 400;
+}
+
+.infos h4 span {
+	font-weight: 800;
+}
+
+.name {
+	margin-right: 40px;
+}
+
+.time {
+	font-weight: 400;
+}
+
+.time span {
+	font-weight: 800;
+}
+
+.time-h4 .time {
+	margin-top: -50px;
+	margin-bottom: 20px;
+}

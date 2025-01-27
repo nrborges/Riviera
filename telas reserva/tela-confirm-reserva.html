@@ -34,24 +34,12 @@
 
         <main>
             <div class="container-principal">
-                <h3>Reserve sua mesa agora!</h3>
+                <h3 id="now">Reserva confirmada!</h3>
 
-                <form>
-                    <div class="input-cadastro">
-                        <label for="nome">Data</label>
-                        <input type="date" id="data-nascimento" name="date">
-                    </div>
+                <div class="buttons" id="dispo">
+                    <a class="cadastrar" id="cancel" href="/index.html">sair</a>
 
-                    <div class="input-cadastro">
-                        <label for="sobrenome">Horário</label>
-                        <input type="text" id="time" name="time" placeholder="Ex. 19:30">
-                    </div>
-                </form>
-
-                <div class="buttons">
-                    <a class="cadastrar" id="cancel" href="/index.html">cancelar</a>
-
-                    <a class="cadastrar" href="/telas reserva/tela-dispo-reserva.html">Verificar reserva</a>
+                    <a class="cadastrar" href="tela-ver-reserva.html">ver reserva</a>
                 </div>
             </div>
         </main>
