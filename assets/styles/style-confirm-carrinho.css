@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Manrope", sans-serif;
+    background-color: #2A0000;
+    color: #DCCFC4;
+    height: 100vh;
+}
+  
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 3px 20px; 
+    height: 56px;
+  }
+  
+  .logo-riviera {
+    margin: 5px 0 0 20px;
+    text-decoration: none;
+    color: #DCCFC4;
+    font-family: "MonteCarlo", serif;;
+    font-size: 30px;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 11px 15px 0 0;
+  }
+  
+  nav li a {
+    margin: 0 15px 0 40px;
+    color: #dccfc4;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  
+  nav li a:hover{
+    color: #713838;
+    font-weight: 500;
+  }
+  
+  header a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .carrinho {
+    width: 20px;
+    margin-top: 13px;
+  }
+  
+  a .carrinho {
+    margin: 13px 15px 0 40px;
+  }
+
+.title {
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container {
+	width: 950px;
+	height: 350px;
+	background-color: rgba(220, 207, 196, 17%);
+	border-radius: 10px;
+	align-self: center;
+	margin: auto;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    font-family: "Literata", serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.top img {
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.container h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancelar {
+    width: 170px;
+    height: 36px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(13, 24, 43, 60%);
+    color: #DCCFC4;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin: 20px 165px 0 0 ;
+}
+
+.cancelar:hover {
+    background-color: rgba(13, 24, 43, 90%);
+}
