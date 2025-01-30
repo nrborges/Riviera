@@ -128,8 +128,16 @@ form .nomes,
     transition: background-color 0.4s ease;
     margin-top: 390px;
     text-transform: uppercase;
+    margin-left: 30px;
 }
 
 .save-alteracoes:hover {
     background-color: rgba(13, 24, 43, 90%);
+}
+
+
+/* cadastro de itens */
+
+#email {
+    height: 120px;
 }
